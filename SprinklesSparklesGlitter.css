@@ -216,3 +216,7 @@ footer{
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.slides{
+  height: 1000 px;
+  background-color: red 
+}
