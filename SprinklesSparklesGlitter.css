@@ -28,26 +28,22 @@ body{
 }
 ul{
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #f1f1f1;
 }
 li {
   float: left;
 }
-li a, .gwclog{
+li a, .gwclog img{
   display: inline-block;
-  color: black;
-  width:100px;
-  text-align: center;
-  padding: 0px 0px;
-  text-decoration: none;
+  height: 28px;
 }
 li a, .tablinks{
   display: inline-block;
   color: black;
-  width:16%;
+  width:225px;
   text-align: center;
   padding: 16px 15px;
   text-decoration: none;
@@ -226,5 +222,5 @@ footer{
 }
 .slides{
   height: 1000 px;
-  background-color: red 
+  background-color: red
 }
