@@ -1,6 +1,6 @@
 body{
   background-color:white;
-  font-family: verdana;
+  font-family: 'Oxanium', sans-serif;
 }
 .mission {
   background-color: #212121  ;  //#C2CAD0
@@ -16,7 +16,7 @@ body{
   font-size: 300%;
   text-shadow: 1px 1px #005ce6;
   font-size: 55px;
-  font-family: "Times New Roman";
+  /*font-family: "Times New Roman";*/
 }
 .logo{
   border:10px;
@@ -31,22 +31,25 @@ ul{
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #5cd6d6;
 }
 li {
   float: left;
 }
-li a, .gwclog img{
-  display: inline-block;
-  height: 28px;
-}
-li a, .tablinks{
+li a{
   display: inline-block;
   color: black;
-  width:225px;
   text-align: center;
-  padding: 16px 15px;
   text-decoration: none;
+  padding: 0px 15px;
+}
+.tablinks{
+  width:245px;
+  padding: 16px 15px;
+}
+.gwclog img{
+  height: 48px;
+  padding: 2px, 15px;
 }
 li a:hover, .fin:hover .hlth:hover .soc:hover .tablinks {
   background-color: #ddd;
@@ -149,6 +152,9 @@ footer{
   padding: 10px, 16px;
   width:100%;
   align:center;
+  position: absolute;
+  bottom: 0;
+
 }
 .sect{
   width: auto;
@@ -222,5 +228,5 @@ footer{
 }
 .slides{
   height: 1000 px;
-  background-color: red
+  background-color: #ff6666;
 }
