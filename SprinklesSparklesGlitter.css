@@ -1,5 +1,5 @@
 body{
-  background-color:white;
+  background-color:#c7d1ce;
   font-family: 'Oxanium', sans-serif;
 }
 .title{
@@ -37,7 +37,7 @@ li a{
   padding: 0px 15px;
 }
 .tablinks{
-  width:325px;
+  width:240px;
   padding: 16px 15px;
 }
 .ubtn{
@@ -84,8 +84,6 @@ li.fin li.hlth li.soc {
 .calendar{
   padding: 20px 20px 20px 20px;
 }
-
-}
 table {
   border-collapse: collapse;
 }
@@ -96,4 +94,12 @@ th, td{
   height:100px;
   width:12.5%;
   text-indent:5px;
+}
+.website{
+  width:1200px;
+  margin: auto;
+  border-width: thin;
+  border-color: #697d7c;
+  border-radius: 5px;
+  background-color: white;
 }
