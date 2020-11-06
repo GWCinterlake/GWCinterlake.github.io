@@ -37,11 +37,9 @@ li a{
   color: black;
   text-align: center;
   text-decoration: none;
-  padding: 0px 15px;
 }
 .tablinks{
   width:20vw;
-  padding: 16px 15px;
 }
 .ubtn{
   width:20vw;
@@ -62,7 +60,6 @@ li.fin li.hlth li.soc {
 }
 .under a {
   color: black;
-  padding: 12px 16px;
   text-decoration: none;
   display: block;
   text-align: left;
@@ -70,13 +67,7 @@ li.fin li.hlth li.soc {
 .under a:hover{
   background-color: #f1f1f1;
 }
-.fin:hover .under{
-  display: block;
-}
 .hlth:hover .under{
-  display: block;
-}
-.soc:hover .under{
   display: block;
 }
 .slides{
