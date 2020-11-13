@@ -31,18 +31,24 @@ ul{
 }
 li {
   float: left;
+  height:auto;
 }
 li a{
   display: inline-block;
   color: black;
   text-align: center;
   text-decoration: none;
+  position: relative;
+  padding: 1.5vw 0vw 1.3vw 0vw;
 }
 .tablinks{
-  width:20vw;
+  width:22.5vw;
 }
 .ubtn{
-  width:20vw;
+  width:22.5vw;
+  position: relative;
+  padding: 1.5vw 0vw 1.3vw 0vw;
+  text-align: center;
 }
 li a:hover, .fin:hover .hlth:hover .soc:hover .tablinks {
   background-color: #ddd;
