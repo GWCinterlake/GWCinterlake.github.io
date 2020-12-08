@@ -108,3 +108,7 @@ th, td{
   float:left;
   padding-left: 100px;
 }
+
+.color-background {
+  width: 100vw;
+}
