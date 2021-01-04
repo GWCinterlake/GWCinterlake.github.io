@@ -77,9 +77,12 @@ li.fin li.hlth li.soc {
   display: block;
 }
 .slides{
-  height: 1000px;
-  background-color: #ff6666;
-  padding: 20px 20px 20px 20px;
+  box-shadow: 4px 4px #ffb5b5;
+  background-color: inherit;
+  padding: 40px 40px 40px 40px;
+  color: auto;
+  border-color: #ffb5b5;
+  border-width: thin;
 }
 .calendar{
   padding: 20px 20px 20px 20px;
