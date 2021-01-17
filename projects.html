@@ -5,8 +5,10 @@
     <link rel="stylesheet" href="SprinklesSparklesGlitter.css">
     <title>IHS Girls Who Code 2020-2021</title>
     <link href="https://fonts.googleapis.com/css?family=Oxanium&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" ></script>
   </head>
-  <body>
+  <body  onload="formLoad()">
 
     <!--test test 123-->
     <h1 class="title"><center>IHS Girls Who Code 2020-2021</center></h1>
@@ -52,17 +54,25 @@
   <div>
 	   <img class="round" src="___" alt="Project 1 Coding Kitchen" style="border-color:orange;">
 	   <h3 style="color:orange;">Coding Kitchen</h3>
-     <div>
-      <!--inserting Kitchen Project in Box as Demo-->
-      <form>
-        <h5>CODING KITCHEN</h5>
-      </form>
+     <div class = "demo" style="border-color:orange;">
+        <!--inserting Kitchen Project in Box as Demo-->
+        <h1>Coding Kitchen!</h1>
+        <h2>Food database</h2>
+        <p>Separate items in the same box with a comma (,)</p>
+        <form id="myForm">
+        </form>
+        <div id="results">
+          <p id="resultTxt">
+          </p>
+        </div>
      </div>
-</div>
-<div>
-	<img class="round" src="___" alt="Project 2 Website" style="border-color:mediumorchid;">
-	<h3 style="color:mediumorchid;">GWC Website</h3>
-</div>
+  </div>
+  <br><br>
+  <div>
+	   <img class="round" src="___" alt="Project 2 Website" style="border-color:mediumorchid;">
+	    <h3 style="color:mediumorchid;">GWC Website</h3>
+      <div class="demo" style="border-color:mediumorchid;"></div>
+  </div>
 
 
   </div>

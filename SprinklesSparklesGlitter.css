@@ -115,3 +115,8 @@ th, td{
 .color-background {
   width: 100vw;
 }
+
+.demo{
+   background-color: white;
+   border: 2px solid;
+}
