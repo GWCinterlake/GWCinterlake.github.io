@@ -116,7 +116,8 @@ th, td{
   width: 100vw;
 }
 
-.demo{
-   background-color: white;
+.demo {
    border: 2px solid;
+   padding-left:2%;
+   padding-bottom: 2%
 }
