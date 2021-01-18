@@ -160,14 +160,19 @@ function formLoad() {
   var z = document.createElement("BUTTON");
   z.setAttribute("type", "button");
   z.setAttribute("name", "Submit");
-  //z.setAttribute("id", "sbmbtn");
+  z.setAttribute("id", "zbtn");
   z.setAttribute("onclick", "formSub()");
   var mess = document.createTextNode("Submit");
   z.appendChild(mess);
+  var br = document.createElement("BR");
+  document.getElementById("myForm").appendChild(br);
+  var br1 = document.createElement("BR");
+  document.getElementById("myForm").appendChild(br1);
   document.getElementById("myForm").appendChild(z);
 }
 
 function formSub() {
+  w3.hide('#zbtn');
   var empty = 0;
   var ok = document.createElement("BUTTON");
   //var srch = document.createElement("div");
@@ -192,7 +197,7 @@ function formSub() {
       } else {
         //should write input into cl
         //console.log(db[hdr].length);
-        inpts.push("You searched for: " + val+".");
+        inpts.push("You searched for: '" +val+"'");
         //run through db in "for i in" funct using the header[i]
         var num = 0;
         for (k = 0; k < db[hdr].length; k++){
@@ -201,7 +206,7 @@ function formSub() {
             //loop through each section of db and draw info
             for (a = 1 ; a < 8 ; a++){
               var hdr1 = headers[a];
-              inpts.push(hdr1+": "+db[hdr1][k]);
+              inpts.push(" "+hdr1+": "+db[hdr1][k]);
             };
           } else {
             //if cant find any matches then throw error
@@ -209,7 +214,7 @@ function formSub() {
           };
         };
         if (num == k){
-            inpts.push("No results found");
+            inpts.push(" No results found");
           };
         //show results of pulls
         console.log(inpts);
@@ -229,7 +234,12 @@ function resultLoad(resultTxt){
   //append results to end of page
   //srch.innerHTML = inptscool;
   console.log(inptscool);
-  resultTxt.innerHTML = inptscool;
+  for(t=0;t<inptscool.length;t++){
+    var nw = document.createElement("P");
+    nw.innerHTML = inptscool[t];
+    document.getElementById("resultTxt").appendChild(nw);
+  };
+  //results.innerHTML = inptscool;
   //making btn for after showing info
 
   document.getElementById("results").appendChild(ok);
@@ -242,4 +252,5 @@ function refreshLoad(){
   //alert("hi");
   resultTxt.innerHTML = " ";
   ok.remove();
+  w3.show('#zbtn');
 };
